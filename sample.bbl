@@ -1,0 +1,227 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nataraj2025decoding}{article}{}
+      \name{author}{4}{}{%
+        {{hash=723c60ea3c7ea99ec9d0d6c6c03efba2}{%
+           family={Nataraj},
+           familyi={N\bibinitperiod},
+           given={Ranjana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=942df2b34198045f85d1479d61135235}{%
+           family={Ashok},
+           familyi={A\bibinitperiod},
+           given={Avinash\bibnamedelima Karkada},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4959eed16994bf80c54ef788a74e43cd}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Ayushi\bibnamedelima Amin},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7ac3aaad1178f04ca9494f64ed006192}{%
+           family={Kesavardhana},
+           familyi={K\bibinitperiod},
+           given={Sannula},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{690240c180a790bb7bfbe710fc5e48ef}
+      \strng{fullhash}{690240c180a790bb7bfbe710fc5e48ef}
+      \strng{bibnamehash}{690240c180a790bb7bfbe710fc5e48ef}
+      \strng{authorbibnamehash}{690240c180a790bb7bfbe710fc5e48ef}
+      \strng{authornamehash}{690240c180a790bb7bfbe710fc5e48ef}
+      \strng{authorfullhash}{690240c180a790bb7bfbe710fc5e48ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Microbiology Spectrum}
+      \field{title}{Decoding non-human mammalian adaptive signatures of clade 2.3.4.4b H5N1 to assess its human adaptive potential}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{ashok2024high}{article}{}
+      \name{author}{6}{}{%
+        {{hash=942df2b34198045f85d1479d61135235}{%
+           family={Ashok},
+           familyi={A\bibinitperiod},
+           given={Avinash\bibnamedelima Karkada},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f90b9458c75c79e92137840dd34c0cb4}{%
+           family={Gnanasekaran},
+           familyi={G\bibinitperiod},
+           given={Tamizh\bibnamedelima Selvan},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5cba79b29d49d114a0b52914462bef6c}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Hulikal\bibnamedelimb Shivashankara\bibnamedelima Santosh},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=620f1fc6b4dd42864a811597b95f0c48}{%
+           family={Srikanth},
+           familyi={S\bibinitperiod},
+           given={Koigoora},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c879277998b9de50af1c28067ad7e991}{%
+           family={Prakash},
+           familyi={P\bibinitperiod},
+           given={Nayana},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8dc33a7af2598cd780db93122369048f}{%
+           family={Gollapalli},
+           familyi={G\bibinitperiod},
+           given={Pavan},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \strng{fullhash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \strng{bibnamehash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \strng{authorbibnamehash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \strng{authornamehash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \strng{authorfullhash}{7dd9abc94ccc9ca1b49d5d5a0e40c024}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biomolecular Structure and Dynamics}
+      \field{title}{High-throughput screening and molecular dynamics simulations of natural products targeting LuxS/AI-2 system as a novel antibacterial strategy for antibiotic resistance in \textit{Helicobacter pylori}}
+      \field{volume}{42}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{mishra2024bat}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=fedd9048f103b065daf99da2378966bd}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Sanchita},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c841259c46d2749d09b31898ddcfd34}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Disha},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4959eed16994bf80c54ef788a74e43cd}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Ayushi\bibnamedelima Amin},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d87ecd2aaab63c68764fdc6b24238539}{%
+           family={Nagaraja},
+           familyi={N\bibinitperiod},
+           given={Sahana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84ce2f7f2598ce6548e05c64cc636ef8}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Mansi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=52633cd94019f7ddb153d511e2cacd7b}{%
+           family={Khatun},
+           familyi={K\bibinitperiod},
+           given={Oyahida},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d7e980ca51a5bee9816712c95de0a075}{%
+           family={Balamurugan},
+           familyi={B\bibinitperiod},
+           given={Keerthana},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1fc166df7bb4badc660b791d5e9d4861}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Micky},
+           giveni={M\bibinitperiod}}}%
+        {{hash=942df2b34198045f85d1479d61135235}{%
+           family={Ashok},
+           familyi={A\bibinitperiod},
+           given={Avinash\bibnamedelima Karkada},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=04f35058122a87a61ede2c451b41563a}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Shashank},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \strng{fullhash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \strng{bibnamehash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \strng{authorbibnamehash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \strng{authornamehash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \strng{authorfullhash}{3cf9f7d583a2bd59c536bba5e6a8ae6b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell iScience}
+      \field{title}{Bat RNA viruses employ viral RHIMs orchestrating species-specific cell death programs linked to Z-RNA sensing and ZBP1--RIPK3 signaling}
+      \field{volume}{27}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{kumar2025computational}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6f429abbdf00e2829bc3db724739047b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Manish},
+           giveni={M\bibinitperiod}}}%
+        {{hash=942df2b34198045f85d1479d61135235}{%
+           family={Ashok},
+           familyi={A\bibinitperiod},
+           given={Avinash\bibnamedelima Karkada},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9bfa5f65ef02a0279307564676d62c26}{%
+           family={Bhat},
+           familyi={B\bibinitperiod},
+           given={Thejaswi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4f2bdee422ddee30b7dad7a1c2207924}{%
+           family={Ballamoole},
+           familyi={B\bibinitperiod},
+           given={Krishnakumar},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8dc33a7af2598cd780db93122369048f}{%
+           family={Gollapalli},
+           familyi={G\bibinitperiod},
+           given={Pavan},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \strng{fullhash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \strng{bibnamehash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \strng{authorbibnamehash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \strng{authornamehash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \strng{authorfullhash}{5defc6027fb3b3a122eb3e28ca66ae44}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Computational-driven discovery of AI-2 quorum sensing inhibitor targeting the $5'$-methylthioadenosine/S-adenosylhomocysteine nucleosidase (MTAN) to combat drug-resistant \textit{Helicobacter pylori}}
+      \field{volume}{184}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

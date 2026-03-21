@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'sample.blg'
+[53] biber:340> INFO - === Fri Mar 13, 2026, 09:30:55
+[65] Biber.pm:419> INFO - Reading 'sample.bcf'
+[103] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[111] Biber.pm:4419> INFO - Processing section 0
+[119] Biber.pm:4610> INFO - Looking for bibtex file 'sample.bib' for section 0
+[120] bibtex.pm:1713> INFO - LaTeX decoding ...
+[123] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[174] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[174] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[177] bbl.pm:660> INFO - Writing 'sample.bbl' with encoding 'UTF-8'
+[178] bbl.pm:763> INFO - Output to sample.bbl
+[178] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_1WhG/4f254e11deca8776044b2c0962cb1230_301198.utf8, line 25, warning: 378 characters of junk seen at toplevel
+[179] Biber.pm:133> INFO - WARNINGS: 1
