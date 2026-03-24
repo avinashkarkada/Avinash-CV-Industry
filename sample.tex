@@ -1,5 +1,5 @@
 
-\documentclass[11pt,a4paper,withhyper]{altacv}
+\documentclass[11pt,letterpaper,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and simpleicons packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
 
@@ -167,185 +167,186 @@
 %% You can add multiple photos on the left or right
 
 \personalinfo{%
-  % Not all of these are required!
-  \small\email{avikarkada@gmail.com | aashok4@jh.edu}
-  \small\phone{+1 401-436-6350} 
-  \divider
-  \divider
-  \href{https://scholar.google.com/citations?user=KitPr8YAAAAJ&hl=en&oi=ao}{\includegraphics[width=20pt]{icons8-google-scholar-50.png}} 
-  \hspace{0.8 cm}
-  \href{https://www.linkedin.com/in/avinash-karkada/}{\includegraphics[width=20pt]{icons8-linkedin-50.png}}
-  \hspace{0.8 cm}
-  \href{https://avinashkarkada.github.io/}{\includegraphics[width=20pt]{icons8-website-50.png}}
-  \hspace{0.8 cm}
-  \href{https://github.com/avinashkarkada}{\includegraphics[width=20pt]{icons8-github-50.png}}
-  \hspace{0.8 cm}
-  \href{https://orcid.org/0000-0001-6604-3351}{\includegraphics[width=20pt]{icons8-orcid-50.png}}
-  %% You can add your own arbitrary detail with
-  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
-  % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
-
-  %% Or you can declare your own field with
-  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-
-  %%
-  %% For services and platforms like Mastodon where there isn't a
-  %% straightforward relation between the user ID/nickname and the hyperlink,
-  %% you can use \printinfo directly e.g.
-  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
-  %% But if you absolutely want to create new dedicated info fields for
-  %% such platforms, then use \NewInfoField* with a star:
-  \NewInfoField*{mastodon}{\faMastodon}
-  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
-  %% the full hyperlink.
+  \email{avikarkada@gmail.com}
+  \phone{+1 401-436-6350}
+  \homepage{avinashkarkada.github.io}
+  \github{avinashkarkada}
+  \linkedin{avinash-karkada}
+  \orcid{0000-0001-6604-3351}
+  \printinfo{\faGraduationCap}{\href{https://scholar.google.com/citations?user=KitPr8YAAAAJ}{Google Scholar}}
 }
 
 \makecvheader
-%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
-% \AtBeginEnvironment{itemize}{\small}
+
+\vspace{0.8em}
+
+%% Professional Summary
+{\justifying
+Computational biologist with 4+ years of experience spanning NGS pipeline engineering, immune profiling, structural biology, and applied machine learning. Proficient in Python, R, Bash, Snakemake, and Docker on Linux/HPC and cloud platforms. Experienced in both academic research (Johns Hopkins, Indian Institute of Science) and industry (Infinity Bio, Sciomics), with a track record of delivering production-grade pipelines, reproducible analyses, and client-facing bioinformatics tools. 12+ peer-reviewed publications.\par}
+\vspace{0.5em}
 
 %% Set the left/right column width ratio to 6:4.
 \columnratio{1}
 
-% Start a 2-column paracol. Both the left and right columns will automatically
-% break across pages if things get too long.
 \begin{paracol}{1}
 \cvsection{Education}
 
-\cvevent{M.S.\ Bioinformatics}{Johns Hopkins University}{August 2024 -- Ongoing}{Baltimore, USA}
+\begin{minipage}[t]{0.52\textwidth}
+\cvevent{M.S.\ Bioinformatics}{Johns Hopkins University}{Aug 2024 -- May 2026 (exp.)}{Baltimore, USA}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+\cvevent{B.E.\ Biotechnology}{Visvesvaraya Technological University}{June 2019 -- July 2023}{Karnataka, India}
+\textbf{First Class with Distinction}
+\end{minipage}
 
-\divider
-
-\cvevent{B.E.\ Biotechnology}{Visvesvaraya Technological University}{June 2019 -- July 2023}{Karnataka, India}\textbf{First Class with Distinction} \divider
+\medskip
 
 
-\cvsection{Recent Experiences}
+\cvsection{Experience}
 
-\cvevent{Bioinformatics Engineer}{Johns Hopkins University School of Medicine}{Sep 2024 -- Ongoing}{Baltimore, USA}
+\cvevent{Bioinformatics Engineer}{Johns Hopkins University School of Medicine}{Sep 2024 -- Present}{Baltimore, USA}
 \begin{itemize}
 	\justifying
-\item Develop and maintain computational pipelines for InFlux, a highly multiplexed NGS-based influenza A neutralization assay, analyzing samples to profile humoral immunity across diverse patient cohorts in \href{https://profiles.hopkinsmedicine.org/provider/ben-larman/2777925}{\textbf{Dr. Benjamin H. Larman's}} lab.
-\item Lead a PhIP-Seq antibody-profiling project investigating influence of microbial dysbiosis on humoral immunity in early-onset, late-onset colorectal cancer, and polyp/healthy control cohorts.
+\item Engineer and maintain computational pipelines for InFlux, a highly multiplexed NGS-based influenza A neutralization assay that generates 50 strain-specific neutralization measures per sample, including pipeline validation and QC workflows to ensure data quality across diverse patient cohorts in \href{https://profiles.hopkinsmedicine.org/provider/ben-larman/2777925}{\textbf{Dr. Benjamin H. Larman's}} lab.
+\item Independently lead a \href{https://doi.org/10.3389/fbinf.2024.1424202}{\textbf{PhIP-Seq}} antibody-profiling project analyzing several hundred serum samples investigating microbial dysbiosis and humoral immunity in early-onset, late-onset colorectal cancer, and polyp/healthy control cohorts; anticipated first-author manuscript in progress.
 \end{itemize}
 \divider
 
 \cvevent{Summer Bioinformatics Intern}{Infinity Bio, Inc.}{June 2025 -- August 2025}{Baltimore, USA}
 \begin{itemize}
 	\justifying
-	\item Contributed to EpitopeFindeR 2, a reproducible pipeline to align and cluster library peptide sequences to identify continuous and discontinuous epitopes, integrating FoldDisco-based structural mapping to localize antibody binding sites on 3D antigen structures. 
-	\item Developed \href{https://latch.bio/product/plots}{\textbf{Latch Bio}}-based analysis pipelines to improve customer experience, including a UMAP-based sequence-space analyzer and visualization module for EpitopeFindeR2.
-	\item Benchmarked and optimized NGS based \href{https://www.infinitybio.com/mipsa/} {\textbf{MIPSA}} analysis pipelines by comparing alignment strategies (Bowtie2, Minimap2, etc.), improving alignment quality and I/O handling while reducing overall runtime and resource usage.  
+	\item Benchmarked and optimized NGS-based \href{https://www.infinitybio.com/mipsa/}{\textbf{MIPSA}} analysis pipelines by evaluating alignment strategies (Bowtie2, Minimap2, etc.), improving alignment quality and I/O handling while reducing overall runtime and resource usage.
+	\item Co-developed EpitopeFindeR 2, a reproducible pipeline integrating FoldDisco-based 3D structural mapping to identify continuous and discontinuous epitopes from library peptide sequences; pipeline deployed to production for client-facing data portal.
+	\item Built \href{https://latch.bio/product/plots}{\textbf{Latch Bio}}-based analysis pipelines including a UMAP-based sequence-space analyzer and visualization module, improving customer experience for EpitopeFindeR 2 users.
 \end{itemize}
 \divider
 
-\cvevent{Junior Research Fellow}{Indian Institute of Science}{Nov 2023 -- Aug 2024}{Banglore, India}
+\cvevent{Junior Research Fellow}{Indian Institute of Science}{Nov 2023 -- Aug 2024}{Bangalore, India}
 \begin{itemize}
 	\justifying
-	\item \href{https://doi.org/10.1128/spectrum.00948-25}{Contributed to a comparative genomics study that decoded mammalian adaptive signatures in clade 2.3.4.4b H5N1 across non-human hosts, highlighting convergent mutations that may increase human adaptation risk and informing genomic surveillance priorities}.
-	\item Helped show that neuraminidase stalk length and haemagglutinin glycosylation patterns molecularly bias segment pairing, promoting reassortment routes that facilitated emergence of highly pathogenic clade 2.3.4.4b A(H5N1).
-	\item \href{https://www.cell.com/iscience/fulltext/S2589-0042(24)02671-3}{Supported discovery and functional characterization of RHIM motifs in bat RNA viruses including a SARS-CoV-2 Nsp13 RHIM, that differentially engage ZBP1-RIPK3 signaling to orchestrate host cell death in bat versus human cells.}
+	\item \href{https://doi.org/10.1128/spectrum.00948-25}{Co-first-authored a comparative genomics study decoding mammalian adaptive signatures in clade 2.3.4.4b H5N1 across non-human hosts, identifying convergent mutations that may increase human pandemic risk} (published in \textit{Microbiology Spectrum}).
+	\item Demonstrated that neuraminidase stalk length and haemagglutinin glycosylation patterns molecularly bias segment pairing, elucidating reassortment routes that facilitated emergence of highly pathogenic clade 2.3.4.4b A(H5N1).
+	\item \href{https://www.cell.com/iscience/fulltext/S2589-0042(24)02671-3}{Contributed to the discovery and characterization of RHIM motifs in bat RNA viruses including a SARS-CoV-2 Nsp13 RHIM, revealing species-specific ZBP1--RIPK3 cell death signaling} (published in \textit{Cell iScience}).
 \end{itemize}
-
-
-%\newpage
-\cvsection{Areas of Expertise/Interests}
-\textbf{Computational Biology and Bioinformatics.}
-
-\textbf{Biostatistics and data visualization, Machine Learning, and OMICS Informatics.}
-
-\textbf{Molecular modeling and Dynamics.}
-
-\textbf{Immunology, Virology, and Cancer biology.}
-
-\textbf{Pipeline engineering, HPC and cloud (Linux/AWS), Python, R, and shell scripting.}
-
-\textbf{Drug discovery and structural biology.}
-
-%\newpage
 
 \cvsection{Skills}
 
-\cvsubsection{Programming}
+\cvsubsection{Programming \& Platforms}
 \cvtag{Python}
-\cvtag{R} 
+\cvtag{R}
 \cvtag{Bash}
-\cvtag{Snakemake}
 \cvtag{SQL}
 \cvtag{Java}
 \cvtag{Git/GitHub}
 \cvtag{Linux}
 \cvtag{HPC/SLURM}
-\cvtag{AWS EC2/GPU}
+\cvtag{AWS (EC2, S3, GPU)}
+\cvtag{Docker}
+\cvtag{Singularity}
+\cvtag{Conda/Mamba}
+\cvtag{Jupyter}
+\cvtag{RStudio}
+\cvtag{Quarto}
+\cvtag{Shiny}
 
 \divider\smallskip
 
-\cvsubsection{Computational Tools \& Techniques}
+\cvsubsection{NGS \& Omics Analysis}
 \cvtag{PhIP-Seq}
 \cvtag{RNA-seq}
 \cvtag{scRNA-seq}
 \cvtag{ChIP-seq}
 \cvtag{WGS}
-\cvtag{GROMACS}
-\cvtag{AMBER}
-\cvtag{gmx mmpbsa}
-\cvtag{RDKit}
-\cvtag{Snakemake}
-\cvtag{XGBoost}
-\cvtag{LASSO}
-\cvtag{SVM}
-\cvtag{Latch}
-\cvtag{Bioconductor}
-\cvtag{Biopython}
-\cvtag{Bowtie}
+\cvtag{WES}
+\cvtag{MIPSA}
+\cvtag{Bowtie2}
 \cvtag{BWA}
-\cvtag{Kallisto}
 \cvtag{Minimap2}
 \cvtag{STAR}
-\cvtag{HISAT}
-\cvtag{Trimmomatic}
+\cvtag{HISAT2}
+\cvtag{Kallisto}
+\cvtag{Salmon}
 \cvtag{SAMtools}
-\cvtag{Git}
-\cvtag{MODELLER}
-\cvtag{CP2K}
-\cvtag{\LaTeX}
-\cvtag{AlphaFold}
-\cvtag{Rosetta}
-\cvtag{ESMFold}
-\cvtag{Cytoscape}
-\cvtag{AutoDock}
-\cvtag{Maestro}
-\cvtag{CD-HIT}
-\cvtag{BLAST}
-\cvtag{ORCA}
-\cvtag{Gaussian}
+\cvtag{BCFtools}
+\cvtag{BEDTools}
+\cvtag{GATK}
+\cvtag{Variant Calling}
 \cvtag{FastQC}
-\cvtag{PyMOL}
-\cvtag{UCSF ChimeraX}
-\cvtag{VMD}
-\cvtag{EMBOSS}
-\cvtag{UCSC Genome browser}
-\cvtag{Ensembl genome browser}
-\cvtag{DESeq2}
-\cvtag{edgeR}
+\cvtag{Trimmomatic}
+\cvtag{Cutadapt}
 \cvtag{SRA Toolkit}
 \cvtag{IGV}
-\cvtag{Excel}
-\cvtag{GraphPad Prism}
+\cvtag{DESeq2}
+\cvtag{edgeR}
+\cvtag{limma}
+\cvtag{Seurat}
+\cvtag{Scanpy}
+\cvtag{Bioconductor}
+\cvtag{Biopython}
+\cvtag{BLAST}
+\cvtag{CD-HIT}
+\cvtag{HMMER}
+\cvtag{MAFFT}
+
+\divider\smallskip
+
+\cvsubsection{Workflow \& Reproducibility}
+\cvtag{Snakemake}
+\cvtag{Latch Bio}
 \cvtag{Docker}
-\cvtag{+Many more}
+\cvtag{Singularity}
+\cvtag{Git/GitHub}
+
+\divider\smallskip
+
+\cvsubsection{ML, Statistics \& Visualization}
+\cvtag{scikit-learn}
+\cvtag{XGBoost}
+\cvtag{SVM}
+\cvtag{LASSO}
+\cvtag{Random Forests}
+\cvtag{PCA}
+\cvtag{UMAP}
+\cvtag{t-SNE}
+\cvtag{pandas}
+\cvtag{NumPy}
+\cvtag{SciPy}
+\cvtag{matplotlib}
+\cvtag{plotly}
+\cvtag{ggplot2}
+\cvtag{GraphPad Prism}
+
+\divider\smallskip
+
+\cvsubsection{Structural Biology \& Drug Discovery}
+\cvtag{GROMACS}
+\cvtag{AMBER}
+\cvtag{gmx\_MMPBSA}
+\cvtag{AlphaFold}
+\cvtag{ESMFold}
+\cvtag{Rosetta}
+\cvtag{FoldX}
+\cvtag{HADDOCK}
+\cvtag{AutoDock}
+\cvtag{Maestro/Schr\"{o}dinger}
+\cvtag{RDKit}
+\cvtag{PyMOL}
+\cvtag{UCSF ChimeraX}
 
 \divider\smallskip
 
 \cvsubsection{Wet Lab Techniques}
 \cvtag{Bacterial cell culture}
-\cvtag{Agarose gel electrophoresis}
 \cvtag{PCR}
+\cvtag{Gel electrophoresis}
 \cvtag{SDS-PAGE}
 \cvtag{Western blot}
+\cvtag{ELISA}
 \cvtag{Sample handling \& QC}
-\cvtag{Basic ELISA handling}
 
-\medskip
+\newpage
+%\medskip
 \cvsection{Relevant Publications}
 
 %% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
@@ -372,84 +373,14 @@
 \switchcolumn
 % \divider
 
-\cvsection{Achievements}
+\cvsection{Achievements \& Service}
 \begin{itemize}[leftmargin=*]
-	\item First-/co-author across peer reviewed journals on influenza genomics, viral cell-death signaling, and MD-backed discovery.
-	\item Paper presentation - Immunology 2025
-	\item Best paper presentation - JAIVIK 2022
-	\item Best undergrad thesis - Final year dissertation
-	\item Trained several students in practical Bioinformatics.
-	
+	\item Peer reviewer for \textit{Nature Communications}, \textit{Journal of Crohn's and Colitis}, \textit{J. Biomolecular Structure and Dynamics}, and \textit{J. Biological Macromolecules}.
+	\item 12+ peer-reviewed publications as first- or co-author across influenza genomics, viral cell-death signaling, and computational drug discovery.
+	\item Paper presentation at Immunology 2025 (AAI Annual Meeting).
+	\item Awarded Best Paper Presentation (JAIVIK 2022) and Best Undergraduate Thesis.
+	\item Mentored multiple students in practical bioinformatics, molecular dynamics, and NGS analysis.
 \end{itemize}
-
-%\newpage
-
-\cvsection{Community Service}
-\begin{itemize}
-	
-	\item \textbf{Peer reviewer for the Nature Communications, Journal of Crohn's and Colitis, Journal of Biomolecular Structure and Dynamics, and the Journal of Biological Macromolecules}
-	\item {\textbf{AICTE Activity Volunteer}}
-	\item {\textbf{National Cadet Corps Volunteer}}
-	\item \textbf{National Service Scheme Volunteer}
-\end{itemize}
-
-%\newpage
-\cvsection{Certificates \& Relevant Courses}
-
-% --- Black, hyperlinked subsection title "Certificates" ---
-{\begingroup
-	\colorlet{subheading}{black}%
-	\cvsubsection{\texorpdfstring{\href{https://drive.google.com/file/d/1rJmOduvifbyovjroH275B-P8MQhIwalM/view?usp=sharing}{\textcolor{black}{Certificates}}}{Certificates}}
-	\endgroup}
-% Certificates (compact bullets)
-% --- Certificates (no bullets; Title then Provider) ---
-\begingroup
-\sloppy\setlength{\emergencystretch}{2em}% safer line breaks for long titles
-\certentry{Epigenetic Control of Gene Expression}{University of Melbourne}
-\certentry{SARS-CoV-2 Protein Modeling and Drug Docking}{Coursera Project Network}
-\certentry{Algorithms for DNA Sequencing}{Johns Hopkins University}
-\certentry{Drug Discovery}{UC San Diego}
-\certentry{Python for Genomic Data Science}{Johns Hopkins University}
-\certentry{Introduction to Genomic Technologies}{Johns Hopkins University}
-\certentry{Introduction to the Biology of Cancer}{Johns Hopkins University}
-\certentry{Summer School on Machine Learning in Bioinformatics}{HSE University}
-\certentry{Antibody Purification}{Siddaganga Institute of Technology}
-\certentry{Artificial Intelligence in Drug Discovery}{CSIR–NEIST}
-\certentry{Technical Hands-On Workshop: Molecular Docking}{BDG Lifesciences}
-\endgroup
-
-%\newpage
-{\begingroup
-	\colorlet{subheading}{black}%
-	\cvsubsection{\texorpdfstring{\textcolor{black}{Relevant coursework}}{Relevant coursework}}
-	\endgroup}
-\begingroup
-\sloppy\setlength{\emergencystretch}{2em}% safer line breaks for long titles
-\cvtag{Introduction to Bioinformatics}
-\cvtag{Algorithms for Bioinformatics}
-\cvtag{Applied Machine Learning}
-\cvtag{Artificial Intelligence}
-\cvtag{Gene Expression Data Analysis and Visualization}
-\cvtag{Protein Bioinformatics}
-\cvtag{Practical Computer Concepts for Bioinformatics}
-\cvtag{Molecular Basis of Pharmacology}
-\cvtag{Molecular Biology}
-\cvtag{Epigenetics, Gene Organization and Expression}
-\cvtag{Genomic and Personalized Medicine}
-\cvtag{Biostatistics and Biomodelling}
-\cvtag{Biochemistry}
-\cvtag{Microbiology}
-\cvtag{Genetics and Genetic Engineering}
-\cvtag{Immunology and Immunotechnology}
-\cvtag{Biomolecular Simulations}
-\cvtag{Programming with Python}
-\cvtag{Genomics and Proteomics}
-\cvtag{Data Analytics}
-\cvtag{Enzyme Technology}
-\cvtag{Clinical Trials and Data Management}
-\cvtag{Biopharmaceuticals and Regulatory Affairs}
-
-\endgroup
 
 
 \end{paracol}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.9)  13 MAR 2026 09:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.9)  24 MAR 2026 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,16 +1157,16 @@ Package hyperref Info: Link coloring OFF on input line 164.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=526.376pt
-* \textheight=759.6886pt
+* h-part:(L,W,R)=(35.56593pt, 543.16313pt, 35.56593pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=543.16313pt
+* \textheight=709.61174pt
 * \oddsidemargin=-36.70406pt
 * \evensidemargin=-36.70406pt
 * \topmargin=-66.59087pt
@@ -1174,7 +1174,7 @@ Package hyperref Info: Link coloring OFF on input line 164.
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=34.14322pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1216,103 +1216,90 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 Package biblatex Info: Reference section=0 on input line 164.
 Package biblatex Info: Reference segment=0 on input line 164.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 203.
+(Font)              scaled to size 17.28pt on input line 179.
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
-put line 203.
+put line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1RobotoSlab-TLF.fd
 File: T1RobotoSlab-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoS
 lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 203.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 179.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 203.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 203.
+(Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 203.
+(Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 203.
+(Font)              scaled to size 9.0pt on input line 179.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 203.
+nput line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 203.
+nput line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-<icons8-google-scholar-50.png, id=13, 50.1875pt x 50.1875pt>
-File: icons8-google-scholar-50.png Graphic file (type png)
-<use icons8-google-scholar-50.png>
-Package pdftex.def Info: icons8-google-scholar-50.png  used on input line 203.
-(pdftex.def)             Requested size: 20.0pt x 20.00035pt.
-<icons8-linkedin-50.png, id=16, 50.1875pt x 50.1875pt>
-File: icons8-linkedin-50.png Graphic file (type png)
-<use icons8-linkedin-50.png>
-Package pdftex.def Info: icons8-linkedin-50.png  used on input line 203.
-(pdftex.def)             Requested size: 20.0pt x 20.00035pt.
-<icons8-website-50.png, id=18, 50.1875pt x 50.1875pt>
-File: icons8-website-50.png Graphic file (type png)
-<use icons8-website-50.png>
-Package pdftex.def Info: icons8-website-50.png  used on input line 203.
-(pdftex.def)             Requested size: 20.0pt x 20.00035pt.
-<icons8-github-50.png, id=20, 50.1875pt x 50.1875pt>
-File: icons8-github-50.png Graphic file (type png)
-<use icons8-github-50.png>
-Package pdftex.def Info: icons8-github-50.png  used on input line 203.
-(pdftex.def)             Requested size: 20.0pt x 20.00035pt.
-<icons8-orcid-50.png, id=22, 50.1875pt x 50.1875pt>
-File: icons8-orcid-50.png Graphic file (type png)
-<use icons8-orcid-50.png>
-Package pdftex.def Info: icons8-orcid-50.png  used on input line 203.
-(pdftex.def)             Requested size: 20.0pt x 20.00035pt.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 179.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 179.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 179.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
+ input line 179.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 179.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 203.
+(Font)              <6> on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 213.
+(Font)              scaled to size 14.4pt on input line 192.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 213.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 192.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 213.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 192.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 215.
-
-Overfull \hbox (3.70047pt too wide) in paragraph at lines 237--238
-[]\T1/lato-TLF/m/n/10.95 Benchmarked and op-ti-mized NGS based []\T1/lato-TLF/b
-/n/10.95 MIPSA[] \T1/lato-TLF/m/n/10.95 anal-y-sis pipelines by com-par-ing ali
-gn-ment strate-gies (Bowtie2,
- []
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 310.
-
-Package biblatex Warning: Type 'book' not found on input line 360.
-
-
-LaTeX Warning: Empty bibliography on input line 360.
-
+(Font)              scaled to size 10.95pt on input line 195.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 364.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 364.
-[1
+(Font)              scaled to size 10.95pt on input line 228.
+ [1
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}{/usr/sha
 re/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/tex
 mf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dis
 t/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/font
-s/enc/dvips/lato/a_rt66h3.enc} <./icons8-google-scholar-50.png> <./icons8-linke
-din-50.png> <./icons8-website-50.png> <./icons8-github-50.png> <./icons8-orcid-
-50.png>]
+s/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
+dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/fontawesome5/fa5brands1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/la
+to/a_rt66h3.enc}]
 
-Package biblatex Warning: Type 'inproceedings' not found on input line 368.
+Package biblatex Warning: Type 'book' not found on input line 361.
 
 
-LaTeX Warning: Empty bibliography on input line 368.
+LaTeX Warning: Empty bibliography on input line 361.
 
-[2] [3] [4] (./sample.aux)
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
+(Font)              scaled to size 10.95pt on input line 365.
+
+Package biblatex Warning: Type 'inproceedings' not found on input line 369.
+
+
+LaTeX Warning: Empty bibliography on input line 369.
+
+[2] [3] (./sample.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1324,25 +1311,27 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43453 strings out of 476182
- 868686 string characters out of 5795596
- 1982975 words of memory out of 5000000
- 64799 multiletter control sequences out of 15000+600000
- 828373 words of font info for 79 fonts, out of 8000000 for 9000
+ 43471 strings out of 476182
+ 869326 string characters out of 5795596
+ 1992975 words of memory out of 5000000
+ 64804 multiletter control sequences out of 15000+600000
+ 807743 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,7n,121p,1131b,3553s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
-ee-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/F
-ontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/l
-ato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato
--BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-I
-talic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on sample.pdf (4 pages, 214626 bytes).
+ 117i,7n,121p,1131b,2531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
+ands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5
+/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typ
+oland/lato/Lato-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typol
+and/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/la
+to/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Ro
+botoSlab-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb>
+Output written on sample.pdf (3 pages, 237464 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
