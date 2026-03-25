@@ -68,7 +68,7 @@
 
 % Change some fonts, if necessary
 \renewcommand{\namefont}{\LARGE\rmfamily\bfseries}
-\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\personalinfofont}{\small}
 \renewcommand{\cvsectionfont}{\Large\rmfamily\bfseries}
 \renewcommand{\cvsubsectionfont}{\large\bfseries}
 
@@ -182,7 +182,7 @@
 
 %% Professional Summary
 {\justifying
-Computational biologist with 4+ years of experience spanning NGS pipeline engineering, immune profiling, structural biology, and applied machine learning. Proficient in Python, R, Bash, Snakemake, and Docker on Linux/HPC and cloud platforms. Experienced in both academic research (Johns Hopkins, Indian Institute of Science) and industry (Infinity Bio, Sciomics), with a track record of delivering production-grade pipelines, reproducible analyses, and client-facing bioinformatics tools. 12+ peer-reviewed publications.\par}
+Bioinformatics and computational biology professional with 4+ years of experience across NGS workflows, immune profiling, structural biology, and applied data analysis. Built and maintained analysis pipelines, automated workflows, and supported reproducible research using Python, R, Bash, Snakemake, other open source and proprietary tools, and Docker on Linux/HPC and cloud systems. Experience spans both academic research and biotech environments, with 12+ peer-reviewed publications.\par}
 \vspace{0.5em}
 
 %% Set the left/right column width ratio to 6:4.
@@ -192,7 +192,7 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvsection{Education}
 
 \begin{minipage}[t]{0.52\textwidth}
-\cvevent{M.S.\ Bioinformatics}{Johns Hopkins University}{Aug 2024 -- May 2026 (exp.)}{Baltimore, USA}
+\cvevent{M.S.\ Bioinformatics}{Johns Hopkins University}{Aug 2024 -- May 2026}{Baltimore, USA}
 \end{minipage}%
 \hfill
 \begin{minipage}[t]{0.46\textwidth}
@@ -208,17 +208,17 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvevent{Bioinformatics Engineer}{Johns Hopkins University School of Medicine}{Sep 2024 -- Present}{Baltimore, USA}
 \begin{itemize}
 	\justifying
-\item Engineer and maintain computational pipelines for InFlux, a highly multiplexed NGS-based influenza A neutralization assay that generates 50 strain-specific neutralization measures per sample, including pipeline validation and QC workflows to ensure data quality across diverse patient cohorts in \href{https://profiles.hopkinsmedicine.org/provider/ben-larman/2777925}{\textbf{Dr. Benjamin H. Larman's}} lab.
-\item Independently lead a \href{https://doi.org/10.3389/fbinf.2024.1424202}{\textbf{PhIP-Seq}} antibody-profiling project analyzing several hundred serum samples investigating microbial dysbiosis and humoral immunity in early-onset, late-onset colorectal cancer, and polyp/healthy control cohorts; anticipated first-author manuscript in progress.
+\item Engineer and maintain computational pipelines for InFlux, a highly multiplexed NGS-based influenza A neutralization assay that generates strain-specific neutralization measures per sample, including pipeline validation and QC workflows to ensure data quality across diverse patient cohorts in \href{https://profiles.hopkinsmedicine.org/provider/ben-larman/2777925}{\textbf{Dr. Benjamin H. Larman's}} lab.
+\item Independently lead a \href{https://doi.org/10.3389/fbinf.2024.1424202}{\textbf{PhIP-Seq}} antibody-profiling project analyzing several hundred serum samples investigating microbial dysbiosis and humoral immunity in early-onset, late-onset colorectal cancer, and polyp/healthy control cohorts. Anticipated first-author manuscript in progress.
 \end{itemize}
 \divider
 
 \cvevent{Summer Bioinformatics Intern}{Infinity Bio, Inc.}{June 2025 -- August 2025}{Baltimore, USA}
 \begin{itemize}
 	\justifying
-	\item Benchmarked and optimized NGS-based \href{https://www.infinitybio.com/mipsa/}{\textbf{MIPSA}} analysis pipelines by evaluating alignment strategies (Bowtie2, Minimap2, etc.), improving alignment quality and I/O handling while reducing overall runtime and resource usage.
-	\item Co-developed EpitopeFindeR 2, a reproducible pipeline integrating FoldDisco-based 3D structural mapping to identify continuous and discontinuous epitopes from library peptide sequences; pipeline deployed to production for client-facing data portal.
-	\item Built \href{https://latch.bio/product/plots}{\textbf{Latch Bio}}-based analysis pipelines including a UMAP-based sequence-space analyzer and visualization module, improving customer experience for EpitopeFindeR 2 users.
+	\item Benchmarked and optimized NGS-based \href{https://www.infinitybio.com/mipsa/}{\textbf{MIPSA}} analysis pipelines by evaluating alignment strategies, improving alignment quality and I/O handling while reducing overall runtime and resource usage.
+	\item Co-developed EpitopeFindeR 2, a reproducible pipeline integrating FoldDisco-based 3D structural mapping to identify continuous and discontinuous epitopes from library peptide sequences. Pipeline deployed to production for client-facing data portal.
+	\item Built \href{https://latch.bio/product/plots}{\textbf{Latch Bio}}-based analysis pipelines including a sequence-space analyzer and visualization module, improving customer experience for EpitopeFindeR 2 users.
 \end{itemize}
 \divider
 
@@ -288,6 +288,13 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvtag{CD-HIT}
 \cvtag{HMMER}
 \cvtag{MAFFT}
+\cvtag{Epitope Mapping}              
+\cvtag{Differential Expression}      
+\cvtag{Enrichment Analysis}          
+\cvtag{Pathway Analysis}             
+\cvtag{Network Analysis}             
+\cvtag{Clustering}                   
+\cvtag{IQ-TREE}                      
 
 \divider\smallskip
 
@@ -315,7 +322,10 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvtag{matplotlib}
 \cvtag{plotly}
 \cvtag{ggplot2}
+\cvtag{dplyr}                        
+\cvtag{tidyr}                        
 \cvtag{GraphPad Prism}
+\cvtag{BioRender}                    
 
 \divider\smallskip
 
@@ -326,13 +336,16 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvtag{AlphaFold}
 \cvtag{ESMFold}
 \cvtag{Rosetta}
-\cvtag{FoldX}
 \cvtag{HADDOCK}
 \cvtag{AutoDock}
+\cvtag{AutoDock Vina}                
 \cvtag{Maestro/Schr\"{o}dinger}
 \cvtag{RDKit}
 \cvtag{PyMOL}
 \cvtag{UCSF ChimeraX}
+\cvtag{Virtual Screening}            
+\cvtag{ADMET}                        
+\cvtag{Protein Structure Prediction} 
 
 \divider\smallskip
 
@@ -344,6 +357,7 @@ Computational biologist with 4+ years of experience spanning NGS pipeline engine
 \cvtag{Western blot}
 \cvtag{ELISA}
 \cvtag{Sample handling \& QC}
+
 
 \newpage
 %\medskip

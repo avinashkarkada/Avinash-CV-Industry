@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.9)  24 MAR 2026 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.9)  24 MAR 2026 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,8 +1232,6 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 179.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 179.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 179.
 
@@ -1250,16 +1248,16 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
  input line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
-vailable
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
+available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 179.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
  input line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
-vailable
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
+available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
 n input line 179.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
@@ -1286,18 +1284,18 @@ dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/fontawesome5/fa5brands1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/la
 to/a_rt66h3.enc}]
 
-Package biblatex Warning: Type 'book' not found on input line 361.
+Package biblatex Warning: Type 'book' not found on input line 375.
 
 
-LaTeX Warning: Empty bibliography on input line 361.
+LaTeX Warning: Empty bibliography on input line 375.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 365.
+(Font)              scaled to size 10.95pt on input line 379.
 
-Package biblatex Warning: Type 'inproceedings' not found on input line 369.
+Package biblatex Warning: Type 'inproceedings' not found on input line 383.
 
 
-LaTeX Warning: Empty bibliography on input line 369.
+LaTeX Warning: Empty bibliography on input line 383.
 
 [2] [3] (./sample.aux)
  ***********
@@ -1311,11 +1309,11 @@ Package logreq Info: Writing requests to 'sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43471 strings out of 476182
- 869326 string characters out of 5795596
- 1992975 words of memory out of 5000000
+ 43469 strings out of 476182
+ 869298 string characters out of 5795596
+ 2001975 words of memory out of 5000000
  64804 multiletter control sequences out of 15000+600000
- 807743 words of font info for 82 fonts, out of 8000000 for 9000
+ 785193 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,7n,121p,1131b,2531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
@@ -1329,7 +1327,7 @@ to/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Ro
 botoSlab-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb>
-Output written on sample.pdf (3 pages, 237464 bytes).
+Output written on sample.pdf (3 pages, 239102 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
